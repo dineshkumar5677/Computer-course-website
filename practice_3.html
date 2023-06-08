@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            scroll-behavior: smooth;
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        * {
+            margin: 0%;
+            padding: 0px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background: linear-gradient(352deg, #A88BEB, #F8CEEC);
+            flex-flow: wrap;
+        }
+
+        .box {
+            transition: .2s ease-in;
+            display: flex;
+            background-color: aliceblue;
+            flex-direction: column;
+            width: 399px;
+            height: 550px;
+            justify-content: center;
+            align-items: center;
+            padding: 15px;
+            margin: 10px 41px;
+            border: none;
+            border-radius: 10px;
+            box-sizing: border-box;
+            cursor: pointer;
+            box-shadow: 23px 10px 20px rgb(193, 155, 193);
+        }
+
+        .box:hover {
+            width: 409px;
+            height: 560px;
+            margin: 0px 36px;
+        }
+
+        .box img {
+            width: 200px;
+            height: 250px;
+        }
+
+        .box h3 {
+            font-size: 23px;
+        }
+
+        .box p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            line-height: 20px;
+            letter-spacing: 0.7px;
+            margin: 24px 10px;
+            text-align: center;
+        }
+
+        .box button {
+            width: 126px;
+            background-color: rgb(125, 38, 206);
+            color: white;
+            border: none;
+            border-radius: 29px;
+            height: 50px;
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .2s ease-in;
+
+            box-shadow: 0px 10px 11px rgb(78 36 118);
+        }
+
+        .box button:hover {
+            width: 137px;
+            height: 60px;
+            letter-spacing: 1px;
+        }
+
+        .navbar {
+            display: flex;
+
+            background-color: #e3e3e3;
+            height: 80px;
+            width: 100%;
+            justify-content: space-between;
+            align-items: center;
+            /* background: linear-gradient(135deg, #00b0b9, #a4e3b2 60%, cyan);; */
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            height: 90px;
+
+        }
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px 5px;
+            color: white;
+        }
+
+        .right li {
+            display: flex;
+            list-style: none;
+            margin: 0px 25px;
+            font-size: 21px;
+            line-height: 5px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            transition: .4s linear;
+            color: white;
+        }
+
+        .right li a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .home-box {
+            width: 100%;
+            height: 35rem;
+            background-image: url('bg.jpg');
+            background-position: bottom;
+            background-size: cover;
+        }
+
+        .home-text {
+            display: flex;
+            /* justify-content: center; */
+            align-items: flex-start;
+            flex-direction: column;
+            width: 45%;
+            border: none;
+            background-color: #f8e0ce;
+            height: 364px;
+            padding: 98px 0px;
+
+        }
+
+        .home-text h4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            margin: 40px 55px;
+            letter-spacing: 1px;
+        }
+
+        .home-text p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 19px;
+            margin: 12px 50px;
+            letter-spacing: 1px;
+            text-align: left;
+            margin-left: 31px;
+        }
+        .text-contact{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 31rem;
+    height: 27rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 125rem;
+    right: 4rem;
+    padding: 29px;
+        }
+        .text-contact ul li{font-size: 20px;}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar"> <a href="#"><img class="left"
+            src="https://images.vexels.com/media/users/3/131217/isolated/preview/e613fbde0ac88fd305dee8929b6679f1-laptop-circle-icon-by-vexels.png"
+            alt=""> </a>
+        <ul class="right">
+            <li><a target="_blank" href="#">Home</a></li>
+            <li><a href="#course">Courses</a></li>
+            <li><a href="#contact"> Contact Us</a></li>
+            <li><a href=""> About Us</a></li>
+        </ul>
+    </nav>
+
+
+    </div>
+
+    <div class="home-box">
+        <div class="home-text">
+            <h4>PRICELESS COURSES FOR FREE</h4>
+            <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam tenetur earum minima vitae enim
+                laudantium quae ex nesciunt id eveniet! Iure consequuntur enim adipisci rerum eveniet, doloribus vel sed
+                facilis numquam architecto laboriosam eum ratione magni, atque qui omnis nihil.</P>
+        </div>
+    </div>
+    <center>
+        <h1 id="course" style="
+    border: none;
+    border-radius: 10px;
+    font-size: 40px;
+    box-shadow: 0px 2px 10px #c29cc3;
+    width: 293px;
+    margin: 17px 17px;
+    background: linear-gradient(199deg, #A88BEB, #F8CEEC);">Our Courses</h1>
+    </center>
+
+    <div class="main">
+
+        <div class="box">
+            <img src="img/html.png" alt="">
+            <h3>HTML GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="box">
+            <img style="    width: 260px;" src="img/css.png" alt="">
+            <h3>CSS GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="box">
+            <img src="img/java.png" alt="">
+            <h3>JAVA GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="box">
+            <img src="img/python.png" alt="">
+            <h3>PYTHON GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="box">
+            <img style="width: 260px;" src="img/node.png" alt="">
+            <h3>NODE.JS GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button>KNOW MORE</button>
+        </div>
+        <div class="box">
+            <img src="img/react.png" alt="">
+            <h3>REACT.JS GUIDE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellat consequatur quae. Facilis, amet?
+                Unde, aut! Tempore similique inventore recusandae numquam molestiae! Eos perferendis adipisci recusandae
+                omnis minima, cupiditate consequuntur!</p>
+            <button >KNOW MORE </button>
+        </div>
+    </div><center>
+    <h1   id="contact" style="
+         border: none;
+         border-radius: 10px;
+         font-size: 40px;
+         box-shadow: 0px 2px 10px #c29cc3;
+         width: 293px;
+         margin: 17px 17px;
+         background: linear-gradient(199deg, #A88BEB, #F8CEEC);">Contact Us</h1></center>
+    <div  onclick="my()" style=" width: 100%;
+    height: 555px;
+max-width:100%;list-style:none; transition: none;overflow:hidden;">
+        <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;"><iframe
+                style="height:100%;width:100%;border:0;" frameborder="0"
+                src="https://www.google.com/maps/embed/v1/place?q=SLIET+University,+Administration+Block,+SLIET+Longowal,+SLIET+Road,+Punjab,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+        </div><a class="my-codefor-googlemap" href="https://www.bootstrapskins.com/themes"
+            id="authorize-map-data">premium bootstrap themes</a>
+        <style>
+            #embed-map-display img.text-marker {
+                max-width: none !important;
+                background: none !important;
+            }
+
+            img {
+                max-width: none
+            }
+        </style>
+
+        <div  id="ct" class="text-contact"><ul>
+            <li>Phone NO. +918427418726</li>
+            <li>Email ID. Dineshgarg5677@gmail.com</li>
+            <li>Address. Sant Longowal Institute of Engineering And Technology</li>
+        </ul></div>
+    </div>
+
+    <script>
+        function my() {
+            if (ct.style.display == "none") {
+
+                ct.style.display = "flex"
+            } else { 
+                ct.style.display = "none"
+            }
+            
+        }
+    </script> <center>
+    <footer style="background-color: black; color: white; height: 30px;
+    font-size: 19px;">
+        All rights reserverd 2023 &copy;
+    </footer></center>
+</body>
+
+</html>
